@@ -11,8 +11,8 @@ export default function SinglePlayer() {
   useEffect(() => {
     async function fetchPlayer() {
       try {
-        const player = await fetchSinglePlayer((params.id));
-          console.log(params.id);
+        const player = await fetchSinglePlayer((params.id)); //don't know if this is correct//
+          console.log(params.id); //don't know if this is correct//
         return setSinglePlayer(player);
       }catch (error) {
         setError(error);
