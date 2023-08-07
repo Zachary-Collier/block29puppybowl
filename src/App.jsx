@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import AllPlayers from "./components/AllPlayers";
 import SinglePlayer from "./components/SinglePlayer";
 import "./App.css";
