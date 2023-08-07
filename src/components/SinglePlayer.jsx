@@ -16,7 +16,7 @@ export default function SinglePlayer() {
         return setSinglePlayer(player);
       }catch (error) {
         setError(error);
-      })
+      }
     }
   }
 
