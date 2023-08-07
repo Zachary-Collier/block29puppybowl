@@ -45,8 +45,8 @@ export default function NewPlayerForm() {
         <label>
           Name:{" "}
           <input
-            value={puppyName}
-            onChange={(e) => setPuppyName(e.target.value)}
+            value={puppyNameIs}
+            onChange={(e) => setPuppyNameIs(e.target.value)}
             required
           />
         </label>
@@ -54,8 +54,8 @@ export default function NewPlayerForm() {
         <label>
           Breed:{" "}
           <input
-            value={puppyBreed}
-            onChange={(e) => setPuppyBreed(e.target.value)}
+            value={puppyBreedIs}
+            onChange={(e) => setPuppyBreedIs(e.target.value)}
             required
           />
         </label>
@@ -63,13 +63,13 @@ export default function NewPlayerForm() {
         <label>
           Status:{" "}
           <select
-            value={playerStatus}
+            value={playerStatusIs}
             onChange={(e) => {
-              setPlayerStatus(e.target.value);
+              setPlayerStatusIs(e.target.value);
             }}
           >
-            <option value="bench">Bench</option>
-            <option value="field">Field</option>
+            <option value="bigDog">Big Dog</option>
+            <option value="littleDog">Little Dog</option>
           </select>
         </label>
 
